@@ -1,13 +1,14 @@
 {
 	"info": {
-		"_postman_id": "4f50f4a8-bc2b-4140-8381-144dee0a099c",
+		"_postman_id": "1bd1c152-28b0-44e5-a9dd-efe391df190b",
 		"name": "Z2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "525986"
+		"_uid": "525986-1bd1c152-28b0-44e5-a9dd-efe391df190b"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
+			"id": "4c9379df-cd39-442f-9cbf-0d3583b892ed",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -35,6 +36,7 @@
 			},
 			"response": [
 				{
+					"id": "4e3afcab-339f-4e4c-93d0-24de6ad30de1",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -64,6 +66,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "x-next",
@@ -79,6 +82,7 @@
 					"body": "{\n  \"id\": -75280601,\n  \"name\": \"ex labore consequat\",\n  \"tag\": \"consequat consectetur\"\n}"
 				},
 				{
+					"id": "2dc675bc-8789-4f85-8489-0d56fadc65c7",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -108,6 +112,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -137,6 +142,7 @@
 	},
 	"variable": [
 		{
+			"id": "c391e90c-1ffb-4647-acdf-77499df95a6d",
 			"key": "baseUrl",
 			"value": "localhost:3000",
 			"type": "string"
